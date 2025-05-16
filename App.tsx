@@ -10,7 +10,6 @@ import {
 
 import theme from "./src/global/styles/theme";
 import Register from "./src/screens/Register";
-import CategorySelect from "./src/screens/CategorySelect";
 
 // Impede o fechamento automático da Splash
 SplashScreen.preventAutoHideAsync();
@@ -39,7 +38,7 @@ export default function App() {
 
     return (
         <ThemeProvider theme={theme}>
-            <CategorySelect />
+            <Register />
         </ThemeProvider>
     );
 }
